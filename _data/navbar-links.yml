@@ -1,11 +1,12 @@
 - name: WE ARE SWOOP
-  url: /#swoop
+  url: "/#swoop"
 
 - name: OUR SERVICES
-  url: /#services
+  url: "/#services"
 
-- name: co.lateral
-  url: /#colateral
+- name: co<span class="dot">.</span>lateral
+  url: "/colateral"
+  custom-class: active
 
 - name: CONTACT US
-  url: /#contact
+  url: "/#contact"
