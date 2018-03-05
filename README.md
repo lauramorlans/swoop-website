@@ -76,7 +76,7 @@ Once the ngrok application has been downloaded, move it into your Applications d
 mv ~/Downloads/ngrok ~/Applications
 ```
 
-We'll create a symlink to the Ngrok application so it's launchable from any directory on the command line. Cd into your local bin directory
+Create a symlink to the Ngrok application so it's launchable from any directory on the command line. Cd into your local bin directory
 ```
 cd /usr/local/bin
 ```
@@ -91,7 +91,7 @@ To test everything is working, run
 ngrok
 ```
 
-Make sure the Jekyll server is running. Start it using
+To publish the local Jeykll server, make sure the Jekyll server is running. Start it using
 ```
 jekyll serve
 ```
