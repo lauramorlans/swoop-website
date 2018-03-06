@@ -124,7 +124,7 @@
 
 #phone {
 	font-family: "Gotham-Light";
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 
@@ -133,7 +133,7 @@
 	color: #238DC1;
 	border-radius: 32px;
 	cursor: pointer;
-	width: 240px;
+	width: 200px;
 	margin: auto;
 	font-family: "Gotham-Light"
 }
