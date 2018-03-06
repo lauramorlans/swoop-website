@@ -27,6 +27,12 @@
 }
 
 
+.colateral-icon img {
+	width: 240px;
+	height: 240px;
+}
+
+
 .bullets-wrap-left .bullet-wrap-right {
 	padding: 0px;
 }
@@ -47,6 +53,12 @@
 
 .bullet-icon {
 	float: right;
+}
+
+
+.bullet-icon img {
+	width: 24px;
+	height: 24px;
 }
 
 

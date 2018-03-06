@@ -14,12 +14,18 @@
 	height: 500px;
 	align-content: center;
 	justify-content: center;
-	display: inline-grid;
+	display: grid;
 }
 
 
 .swoop-logo-main {
 	text-align: center;
+}
+
+
+.swoop-logo-main img {
+	width: 70%;
+	height: 70%;
 }
 
 

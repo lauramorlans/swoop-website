@@ -30,6 +30,12 @@
 }
 
 
+.logo img {
+	width: 240px;
+	height: 185px;
+}
+
+
 }
 
 
@@ -105,7 +111,8 @@
 
 
 .logo img {
-	width: 220px; 
+	width: 220px;
+	height: 100%; 
 }
 
 
@@ -137,7 +144,8 @@
 
 
 .logo img {
-	width: 240px; 
+	width: 240px;
+	height: 185px; 
 }
 
 
