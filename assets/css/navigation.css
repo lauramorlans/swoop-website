@@ -189,12 +189,18 @@
 }
 
 
-.book-a-demo #button {
+.nav-menu .book-a-demo #button {
 	background-color: #238DC1;
 	color: #FFF;
 	cursor: pointer;
-	padding: 5px 20px;
+	padding: 5px 10px;
 	text-decoration: none;
+	-webkit-appearance: textfield;
+}
+
+
+.book-a-demo {
+	margin-top: -4px;
 }
 
 

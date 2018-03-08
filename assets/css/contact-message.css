@@ -102,6 +102,7 @@ input[type=large-text], select {
 	top: 520px;
 	left: 0;
 	right: 0;
+	border-radius: 5px;
 	box-shadow: 0px 0px 8px 2px #b2b3b445;
 }
 
