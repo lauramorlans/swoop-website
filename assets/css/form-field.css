@@ -83,19 +83,21 @@ input[type=large-text], select {
 }
 
 
-.label {
+.label-wrap {
 	display: inline-grid;
-	text-align: left;
+	text-align: center;
 	padding-top: 10px;
-	font-family: "Gotham-Light";
-	font-size: 12px;
-	color: #4A4A4A;
     width: 100%;
+    *display: inline;
 }
 
 
-.label label {
+label {
 	padding-left: 20px;
+    text-align: left;
+    font-family: "Gotham-Light";
+    font-size: 12px;
+    color: #4A4A4A;
 }
 
 
@@ -125,9 +127,13 @@ input[type=submit] {
 
 
 
-.label {
+.label-wrap {
 	font-size: 14px;
     width: 600px;
+}
+
+label {
+    font-size: 14px;
 }
 
 
@@ -143,7 +149,7 @@ input[type=submit] {
 
 .form {
 	text-align: center;
-	display: inline-block;
+	display: grid;
     width: 800px;
 }
 
@@ -166,14 +172,12 @@ input[type=submit] {
 }
 
 
-.label {
-	font-size: 14px;
-}
 
-
-.label label {
+label {
 	padding-left: 20px;
+    font-size: 14px;
 }
+
 
 .form-field-wrap {
     text-align: center;

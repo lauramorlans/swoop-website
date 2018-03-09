@@ -36,16 +36,16 @@
 
 .statistics h3 {
 	font-family: "OpenSans-Regular";
-	font-size: 108px;
+	font-size: 70px;
 	color: #135B7E;
-	padding: 30px;
+	padding: 20px;
 	margin: 0;
 }
 
 
 .statistics p {
 	text-align: center;
-	width: 200px;
+	width: 240px;
 	margin: auto;
 	padding: 20px;
 }
@@ -70,8 +70,8 @@
 	width: 320px;
 	text-align: center;
 	margin: 10px;
-	display: inline-block;
 	border-radius: 5px;
+	display: inline-table;
 }
 
 
@@ -91,6 +91,7 @@
 .statistics-padding {
 	padding: 40px;
 	text-align: center;
+	display: inline-flex;
 }
 
 
@@ -98,7 +99,6 @@
 	width: 290px;
 	text-align: center;
 	margin: 10px;
-	display: inline-block
 }
 
 

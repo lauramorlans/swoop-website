@@ -53,14 +53,13 @@
 	height: 600px;
 	align-items: center;
 	justify-content: center;
-	display: inline-grid;
 }
 
 
 .about-intro {
 	width: 500px;
 	margin: auto;
-	padding: 0px;
+	padding-top: 220px;
 }
 
 
@@ -91,6 +90,11 @@
 
 .about-intro-wrap {
 	height: 660px;
+}
+
+
+.about-intro {
+	padding-top: 240px;
 }
 
 
