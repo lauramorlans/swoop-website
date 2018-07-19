@@ -12,14 +12,9 @@
 	padding-bottom: 40px;
 }
 
-.video {
-	display: none
-}
-
-
 .auto-resizable-iframe {
   max-width: 420px;
-  margin: 0px auto;
+  padding-left: 40px;
 }
 
 .auto-resizable-iframe > div {
@@ -52,64 +47,39 @@
 }
 
 .auto-resizable-iframe {
-	display: none;
-
-}
-
-
-.video {
-	display: inline;
-	padding: 60px;
-	margin: auto;
-}
-
-iframe {
-	width: 640px;
-	height: 360px;
+  max-width: 640px;
+  padding-left: 60px;
 }
 
 
 }
-
-
 
 
 /* Screens over 1024px wide*/
 
 @media only screen and (min-width:1024px) {
 
-
 .video-wrap {
 	text-align: center;
 	padding-bottom: 80px;
 }
 
-.video {
-	padding: 80px;
-}
-
-iframe {
-	width: 853px;
-	height: 480px;
+.auto-resizable-iframe {
+  max-width: 853px;
+  margin: 0px auto;
 }
 
 
 }
-
-
-
 
 
 /* Screens over 1440px wide*/
 
 @media only screen and (min-width:1440px) {
 
-
-
-
-iframe {
-	width: 1280px;
-	height: 720px;
+.auto-resizable-iframe {
+  max-width: 1280px;
+  margin: 0px auto;
 }
 
 }
