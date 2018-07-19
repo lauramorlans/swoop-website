@@ -1,71 +1,39 @@
-/* Product-benefits section starts*/
+/* Product-video section starts*/
 
 
 /* Screens over 320px wide*/
 
 @media only screen and (min-width:320px) {
 
-.benefits-wrap {
-	background-color: #FFF;
+.video-wrap {
+	background-color: #F9F9F9;
 	width: 100%;
-}
-
-
-.benefits {
-	padding: 40px;
-}
-
-
-.benefits-text h3 {
-	color: #4A4A4A;
-}
-
-
-.colateral-icon {
 	text-align: center;
-	padding: 60px 0px;
-}
-
-
-.colateral-icon img {
-	width: 240px;
-	height: 240px;
-}
-
-
-.bullets-wrap-left .bullet-wrap-right {
-	padding: 0px;
-}
-
-
-
-.bullet-title {
-	float: left;
-	width: 70%;
-}
-
-
-.bullet-title h2 {
-	margin-top: 0px;
-	color: #238DC1;
-}
-
-
-.bullet-icon {
-	float: right;
-}
-
-
-.bullet-icon img {
-	width: 24px;
-	height: 24px;
-}
-
-
-.bullet-p {
-	clear: both;
 	padding-bottom: 40px;
-	width: 200px;
+}
+
+.video {
+	display: none
+}
+
+
+.auto-resizable-iframe {
+  max-width: 420px;
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe > div {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -78,60 +46,26 @@
 
 @media only screen and (min-width:768px) {
 
+.video-wrap {
+	text-align: left;
+	padding-bottom: 60px;
+}
 
-.benefits {
+.auto-resizable-iframe {
+	display: none;
+
+}
+
+
+.video {
+	display: inline;
 	padding: 60px;
-	text-align: center;
 	margin: auto;
 }
 
-
-.benefits-text {
-	text-align: left;
-}
-
-
-.colateral-icon {
-	padding-top: 40px;
-}
-
-
-.colateral-icon img {
-	width: 360px;
-	height: 100%;
-}
-
-
-.bullet-master {
-	display: inline-grid;
-	width: 100%;
-}
-
-
-.bullets-wrap-left {
-	padding: 10px 0px;
-	display: inline-block;
-	text-align: left;
-	float: left;
-}
-
-
-.bullets-wrap-right {
-	padding: 10px 0px;
-	display: inline-block;
-	text-align: left;
-	float: left;
-}
-
-
-.bullet-p {
-	width: 100%;
-}
-
-
-.bullet-icon img {
-	width: 30px;
-	height: 100%;
+iframe {
+	width: 640px;
+	height: 360px;
 }
 
 
@@ -144,53 +78,19 @@
 
 @media only screen and (min-width:1024px) {
 
-.bullet-master {
-	display: inline-block;
-	width: 900px;
-	margin: auto;
 
-}
-
-
-.bullets-wrap-left {
-	width: 350px;
-	height: 160px;
-	padding: 0px 50px;
+.video-wrap {
 	text-align: center;
+	padding-bottom: 80px;
 }
 
-
-.bullets-wrap-right {
-	width: 350px;
-	height: 160px;
-	padding: 0px 50px;
-	text-align: center;
-}
-
-
-.bullet-title {
-	width: auto;
-}
-
-
-.bullet-p {
-	width: 280px;
-}
-
-.benefits {
+.video {
 	padding: 80px;
 }
 
-
-
-.benefits h1 {
-	line-height: 72px;
-	text-align: center;
-}
-
-
-.benefits-text {
-	text-align: center;
+iframe {
+	width: 853px;
+	height: 480px;
 }
 
 
@@ -205,47 +105,11 @@
 @media only screen and (min-width:1440px) {
 
 
-.bullet-master {
-	width: 1200px;
-	padding-top: 60px;
-	padding-bottom: 40px;
-}
 
 
-.bullets-wrap-left {
-	float: left;
-	width: 320px;
-}
-
-
-.bullets-wrap-right {
-	float: right;
-	width: 320px;
-}
-
-
-.benefits h1 {
-	font-size: 42px;
-	line-height: 84px;
-}
-
-
-.bullet-title h2 {
-	font-size: 24px;
-	line-height: 42px;
-}
-
-
-.colateral-icon {
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin-top: 60px;
-}
-
-
-.colateral-icon img {
-	width: 300px;
+iframe {
+	width: 1280px;
+	height: 720px;
 }
 
 }
